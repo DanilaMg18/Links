@@ -13,13 +13,13 @@ function App() {
         <Link to="/Community">Community</Link>
       </header>
 
-
+    <div className="Links">
       <Routes>
         <Route path="/Product" element={<Product/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Community" element={<Community/>}/>
       </Routes>
-
+    </div>
     </div>
   );
 }
